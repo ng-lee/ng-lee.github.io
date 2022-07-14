@@ -371,6 +371,7 @@ han: false
 
 # Giscus
 giscus:
+  enable: false
   repo: ng-lee/giscus # <gh-username>/<repo>
   repo_id: R_kgDOHOgUag
   category: Announcements

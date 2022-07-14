@@ -4,7 +4,8 @@
     const origin = "https://giscus.app";
     const iframe = "iframe.giscus-frame";
     const lightTheme = "light";
-    const darkTheme = "dark_dimmed";
+    // const darkTheme = "dark_dimmed";
+    const darkTheme = "light";
     let initTheme = lightTheme;
 
     if ($("html[data-mode=dark]").length > 0
@@ -31,7 +32,7 @@
 
     let giscusScript = document.createElement("script");
     Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
-    document.getElementById("tail-wrapper").appendChild(giscusScript);
+    document.getElementById("comments").appendChild(giscusScript);
 
     addEventListener("message", (event) => {
       if (event.source === window && event.data &&
