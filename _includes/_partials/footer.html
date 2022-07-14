@@ -10,14 +10,16 @@
 </div>
 
 {% if site.copyright %}
-<div class="powered-by">
-  {{ __.footer.powered | replace: '%s', '<a class="theme-link" href="https://jekyllrb.com">Jekyll</a>') }}
-</div>
+<div>
+  <div class="powered-by">
+    {{ __.footer.powered | replace: '%s', '<a class="theme-link" href="https://jekyllrb.com">Jekyll</a>') }}
+  </div>
 
-<div class="theme-info">
-  {{ __.footer.theme }} -
-  <a class="theme-link" href="https://github.com/simpleyyt/jekyll-theme-next">
-    NexT.{{ site.scheme }}
-  </a>
+  <div class="theme-info">
+    {{ __.footer.theme }} -
+    <a class="theme-link" href="https://github.com/simpleyyt/jekyll-theme-next">
+      NexT.{{ site.scheme }}
+    </a>
+  </div>
 </div>
 {% endif %}

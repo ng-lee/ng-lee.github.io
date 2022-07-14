@@ -5,7 +5,13 @@
   img { border: none; }
 }
 
-.footer-inner { text-align: center; }
+.footer-inner { 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 .with-love {
   display: inline-block;
