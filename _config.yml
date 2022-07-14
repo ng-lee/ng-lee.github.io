@@ -159,9 +159,9 @@ index_with_subtitle: false
 menu:
   home: /
   categories: /categories/
-  about: /about/
-  archives: /archives/
   tags: /tags/
+  archives: /archives/
+  about: /about/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -247,7 +247,7 @@ font:
 social:
 #LinkLabel: Link
   GitHub: https://github.com/ng-lee
-  Email: nglee.dev@gmail.com
+  Email: mailto:nglee.dev@gmail.com
 
 # Social Links Icons
 # Icon Mapping:
@@ -326,7 +326,7 @@ scroll_to_more: true
 save_scroll: true
 
 # Automatically excerpt description in homepage as preamble text.
-excerpt_description: true
+excerpt_description: false
 
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
